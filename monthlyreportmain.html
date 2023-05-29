@@ -1,0 +1,26 @@
+<html>
+<head>
+    <title>Monthly Report</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="logo-container">
+            <img class="logo" src="https://madrasfert.co.in/wp-content/uploads/2018/12/logo.png" alt="Company Logo">
+        </div>
+        <h1 class="heading">Monthly Report</h1>
+        <div class="year-buttons">
+            <button class="year-button" onclick="redirectToMonthlyReport('2022')">2022</button>
+            <button class="year-button" onclick="redirectToMonthlyReport('2023')">2023</button>
+            <button class="year-button" onclick="redirectToMonthlyReport('2024')">2024</button>
+            <!-- Add more year buttons as needed -->
+        </div>
+    </div>
+
+    <script>
+        function redirectToMonthlyReport(year) {
+            window.location.href = 'monthlyreport.html?year=' + year;
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,61 @@
+<html>
+<head>
+    <title>Decision Support System</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="logo-container">
+            <img class="logo" src="https://madrasfert.co.in/wp-content/uploads/2018/12/logo.png" alt="Company Logo">
+        </div>
+        <h1 class="heading">Decision Support System</h1>
+        <div class="card card1">
+            <h2 class="card-title">Real-time Dashboard</h2>
+            <p class="card-text">View real-time data and analytics.</p>
+            <button class="btn btn1" onclick="redirectToDashboard()">Go to Dashboard</button>
+        </div>
+        <div class="card card2">
+            <h2 class="card-title">Time Series Analysis</h2>
+            <p class="card-text">Analyze historical data and forecast trends.</p>
+            <button class="btn btn2" onclick="redirectToTimeSeriesAnalysis()">Analyze Data</button>
+        </div>
+        <div class="card card3">
+            <h2 class="card-title">Correlation Analysis</h2>
+            <p class="card-text">Identify relationships between variables.</p>
+            <button class="btn btn3" onclick="redirectToCorrelationAnalysis()">Analyze Correlation</button>
+        </div>
+        <div class="card card4">
+            <h2 class="card-title">Monthly Report</h2>
+            <p class="card-text">Generate monthly reports for analysis.</p>
+            <button class="btn btn4" onclick="redirectToMonthlyReport()">View Monthly Report</button>
+        </div>
+        <div class="card card5">
+            <h2 class="card-title">Linear Regression</h2>
+            <p class="card-text">Analyze data and predict outcomes using linear regression.</p>
+            <button class="btn btn5" onclick="redirectToLinearRegression()">Perform Linear Regression</button>
+        </div>
+    </div>
+
+    <script>
+        function redirectToDashboard() {
+            window.location.href = "realtimedashboard.html";
+        }
+
+        function redirectToTimeSeriesAnalysis() {
+            window.location.href = "Time Series Analysis.html";
+        }
+
+        function redirectToCorrelationAnalysis() {
+            window.location.href = "correlation.html";
+        }
+
+         function redirectToMonthlyReport() {
+            window.location.href = "monthlyreportmain.html";
+        }
+		
+        function redirectToLinearRegression() {
+            window.location.href = "linear_regression.html";
+        }
+    </script>
+</body>
+</html>
